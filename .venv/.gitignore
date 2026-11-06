@@ -1,0 +1,15 @@
+# Виртуальное окружение
+venv/
+.venv/
+env/
+ENV/
+# База данных SQLite (чтобы не затирать базу преподавателя)
+*.sqlite3
+# Файлы настроек IDE (PyCharm, VS Code)
+.idea/
+.vscode/
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd# created by virtualenv automatically
